@@ -3,18 +3,18 @@
 [![Build Status](https://travis-ci.org/nukosuke/go-zendesk.svg?branch=master)](https://travis-ci.org/nukosuke/go-zendesk)
 [![Build status](https://ci.appveyor.com/api/projects/status/ce4p1mswjkdftv6o/branch/master?svg=true)](https://ci.appveyor.com/project/nukosuke/go-zendesk/branch/master)
 [![Coverage Status](https://coveralls.io/repos/github/nukosuke/go-zendesk/badge.svg?branch=master)](https://coveralls.io/github/nukosuke/go-zendesk?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/nukosuke/go-zendesk)](https://goreportcard.com/report/github.com/nukosuke/go-zendesk)
+[![Go Report Card](https://goreportcard.com/badge/github.com/abebars/go-zendesk)](https://goreportcard.com/report/github.com/abebars/go-zendesk)
 [![GoDoc](https://godoc.org/github.com/zenform/go-zendesk?status.svg)](https://godoc.org/github.com/zenform/go-zendesk)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnukosuke%2Fgo-zendesk.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnukosuke%2Fgo-zendesk?ref=badge_shield)
 
 Zendesk API client library for Go
 
-- [Reference](https://godoc.org/github.com/nukosuke/go-zendesk)
+- [Reference](https://godoc.org/github.com/abebars/go-zendesk)
 
 ## Installation
 
 ``` shell
-$ go get github.com/nukosuke/go-zendesk
+$ go get github.com/abebars/go-zendesk
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ package main
 import (
     "context"
 
-    "github.com/nukosuke/go-zendesk/zendesk"
+    "github.com/abebars/go-zendesk/zendesk"
 )
 
 func main() {
